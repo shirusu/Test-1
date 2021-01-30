@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 -10px;
+}
+.row{
+    width: 380px;
+}
+
+.col-3{
+    width: 33.333%;
+    padding: 0 10px;
+}
+.main{
+    display: flex;
+}
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+span{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+.color{
+    padding-right: 20px;
+}
+.age{
+    padding-right: 43px;
+}
+.btn{
+    width: 380px;
+    height: 65px;
+    background: #6EBBD3;
+    color: white;
+}
+
+
